@@ -1,0 +1,12 @@
+spring:
+  devtools:
+    livereload:
+      enabled: true
+      port: 3306
+    restart:
+      enabled: true
+  datasource:
+    url: jdbc:mysql://vvip.icu:3306/zhiyan?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: zhiyan
+    password: qwertyuiop
+    driver-class-name: com.mysql.cj.jdbc.Driver
